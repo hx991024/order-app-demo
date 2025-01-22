@@ -1,0 +1,21 @@
+.mealItem {
+  display: flex;
+  border-bottom: 1px dashed #ccc;
+  padding: 1rem;
+}
+.imageBox {
+  width: 6rem;
+}
+.imageBox img {
+  width: 100%;
+}
+.infoBox {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.priceBox {
+  display: flex;
+  justify-content: space-between;
+}
