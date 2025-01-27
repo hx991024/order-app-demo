@@ -14,8 +14,19 @@
   flex: auto;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 0.5rem;
 }
 .priceBox {
   display: flex;
   justify-content: space-between;
+}
+.title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.desc {
+  /* display: flex; */
+  flex: auto;
+  font-size: 0.9rem;
+  color: #333;
 }
